@@ -1,6 +1,6 @@
 # Dictionary
 
-**TODO: Add description**
+Dictionary library. It provides a random word.
 
 ## Installation
 
@@ -10,7 +10,7 @@ by adding `dictionary` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:dictionary, "~> 0.1.0"}
+    {:dictionary, git: "https://github.com/carloscasalar/dictionary.git", tag: "1.0.0"}
   ]
 end
 ```
