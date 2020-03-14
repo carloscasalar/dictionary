@@ -4,7 +4,7 @@ defmodule Dictionary.MixProject do
   def project do
     [
       app: :dictionary,
-      version: "1.0.0",
+      version: "2.0.0",
       elixir: "~> 1.9",
       start_permanent: Mix.env() == :prod,
       deps: deps()
