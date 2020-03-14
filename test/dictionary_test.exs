@@ -3,7 +3,7 @@ defmodule DictionaryTest do
   doctest Dictionary
 
   test "random_word returns a word" do
-    words = Dictionary.start()
+    {:ok, words} = Dictionary.start()
     assert is_bitstring(Dictionary.random_word(words))
   end
 end
