@@ -1,5 +1,4 @@
 defmodule Dictionary.WordList do
-
   @word_list_key __MODULE__
 
   def start_link() do
