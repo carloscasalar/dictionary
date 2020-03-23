@@ -1,3 +1,6 @@
+## v3.1.0
+* Use a supervisor tree to keep application alive.
+
 ## v3.0.0
 * Turn dictionary library into an application. It no handles its own internal
 state. The word list lives in an agent but now it is an implementation detail.
